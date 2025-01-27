@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: aquamarine;
+
+}
+.box{
+    margin: 5px;
+    margin-top: 20px;
+    word-spacing: 20px;
+}
+.col{
+    border: 5px solid blue;
+    background: url(back3.jpg);
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    padding-top: 25px;
+}
+.box input{
+    width: 300px;
+    padding: 5px;
+    border: 2px solid black;
+}
+.box input:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+}
+.btn {
+    font-family: 'Courier New', Courier, monospace;
+    margin: 7px;
+    background-color: black;
+    color: white;
+    padding: 4px 14px;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+    width: 400px;
+}
+.btn:hover{
+    background-color: aqua;
+    transform: scale(1.1);
+    color: black;
+}
